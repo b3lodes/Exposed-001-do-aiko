@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://conteudo.imguol.com.br/c/noticias/3c/2020/07/03/homem-observa-estrelas-no-ceu-a-noite-1593802511360_v2_3x4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.centrar {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainfake s {
+    color: rgb(32, 63, 88);
+    text-shadow: 0.1em 0.1em 0.2em rgb(1, 0, 71);
+}
+
+iframe {
+    margin-top: 1200px;
+}
+
+.HA {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    width: 120px;
+    height: 120px;
+}
+
+.mainfake {
+    background-image: url(https://images.unsplash.com/photo-1435224668334-0f82ec57b605?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D);
+    width: 70vw;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    color: rgb(235, 66, 0);
+    text-shadow: 0.1em 0.1em 0.2em rgb(105, 42, 0);
+    text-align: center;
+    border-radius: 25%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.main {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1AwoijtnrhstipS81XtPVF3A6NZR2N3PmYg&s);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    color: rgb(212, 0, 255);
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 0, 255);
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1,
+p {
+    color: rgb(62, 0, 75);
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 50px;
+}
+
+.espacovazio {
+    line-height: 100;
+}
+
+.oooh-baby-regular {
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
