@@ -11,7 +11,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     document.body.addEventListener('mouseover', function () {
         document.body.style.zoom = "100%";
-        if (window.scrollY > document.body.scrollHeight-2600) {
+        if (window.scrollY > document.body.scrollHeight-2100) {
             window.scrollTo(0, document.body.scrollHeight);
         }
         if (window.scrollY > document.body.scrollHeight-800) {
