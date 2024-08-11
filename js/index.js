@@ -10,6 +10,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     document.body.addEventListener('mouseover', function () {
+        document.body.style.zoom = "100%";
         if (window.scrollY > document.body.scrollHeight-2600) {
             window.scrollTo(0, document.body.scrollHeight);
         }
