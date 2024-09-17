@@ -23,11 +23,32 @@ $(document).ready(function () {
     });
 });
 
+function getCorAleatoria() {
+    const letras = '0123456789ABCDEF';
+    let cor = '#';
+    for (let i = 0; i < 6; i++) {
+        cor += letras[Math.floor(Math.random() * 16)];
+    }
+    return cor;
+}
+
 function mudarCor() {
     const elementos = document.querySelectorAll('.mainfake');
     elementos.forEach(elemento => {
-        elemento.style.color = 'white';
+        elemento.style.color = getCorAleatoria();
     });
+}
+
+function virarDeCabecaParaBaixo() {
+    document.body.style.transform = 'rotate(180deg)';
+    document.body.style.transformOrigin = 'center';
+    document.body.style.backgroundPosition = 'center';
+    document.body.style.backgroundSize = 'cover';
+    //document.body.style.backgroundImage = 'url(https://conteudo.imguol.com.br/c/noticias/3c/2020/07/03/homem-observa-estrelas-no-ceu-a-noite-1593802511360_v2_3x4.jpg)';
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundAttachment = 'fixed';
+    document.body.style.backgroundColor = 'black';
+    document.body.style.backgroundImage = 'none';
 }
 
 // $(document).ready(function () {
