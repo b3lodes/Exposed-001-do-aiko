@@ -23,6 +23,13 @@ $(document).ready(function () {
     });
 });
 
+function mudarCor() {
+    const elementos = document.querySelectorAll('.mainfake');
+    elementos.forEach(elemento => {
+        elemento.style.color = 'white';
+    });
+}
+
 // $(document).ready(function () {
 //     window.onload = function() {
 //         window.scrollTo(0, document.body.scrollHeight);
